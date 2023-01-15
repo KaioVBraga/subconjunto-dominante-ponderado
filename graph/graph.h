@@ -48,13 +48,13 @@ class Graph {
 
     bool isSubgraphValidSolution(vector<Node *> nodesVector, Graph *subGraph);
 
-    void greedy();
-    void randomGreedy(int iterations, double alpha);
-    void reactiveGreedy(int iterations, int block);
+    Graph *greedy();
+    Graph *randomGreedy(int iterations, double alpha);
+    Graph *reactiveGreedy(int iterations, int block);
 
     Node *getNodeById(int id);
 
-    void print();
+    string stringify(bool allowDisplay);
 
    private:
     vector<Edge *> vectorOfEdges;

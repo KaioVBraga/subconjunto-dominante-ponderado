@@ -240,7 +240,7 @@ double randomValue() {
     return dis(gen);
 }
 
-void Graph::greedy() {
+Graph *Graph::greedy() {
     Timer *timer = new Timer("Time: ");
 
     vector<Node *> nodesVector = this->getNodesVector();
@@ -250,11 +250,13 @@ void Graph::greedy() {
 
     vector<Node *> nodesCandidates(nodesVector);
 
+    Graph *subGraph = nullptr;
+
     while (nodesVector.size() > 0) {
         nodesSolution.push_back(nodesCandidates[0]);
         nodesCandidates.erase(std::remove(nodesCandidates.begin(), nodesCandidates.end(), nodesCandidates[0]), nodesCandidates.end());
 
-        Graph *subGraph = new Graph(nodesSolution);
+        subGraph = new Graph(nodesSolution);
 
         bool found = isSubgraphValidSolution(nodesVector, subGraph);
 
@@ -272,13 +274,15 @@ void Graph::greedy() {
     cout << "Cost: " << totalWeightsCost << endl;
 
     delete timer;
+
+    return subGraph;
 }
 
 int getRandomIndex(double alpha, int size) {
     return floor(ceil(alpha * size) * randomValue());
 }
 
-void Graph::randomGreedy(int iterations, double alpha) {
+Graph *Graph::randomGreedy(int iterations, double alpha) {
     Timer *timer = new Timer("Time: ");
 
     Graph *bestGraph = nullptr;
@@ -323,6 +327,8 @@ void Graph::randomGreedy(int iterations, double alpha) {
     cout << "Cost: " << bestCost << endl;
 
     delete timer;
+
+    return bestGraph;
 }
 
 int chooseAlphaIndex(vector<double> alphas, vector<double> probabilities) {
@@ -369,11 +375,10 @@ void updateProbabilities(vector<double> averages, vector<double> probabilities, 
     }
 }
 
-void Graph::reactiveGreedy(int iterations, int block) {
+Graph *Graph::reactiveGreedy(int iterations, int block) {
     Timer *timer = new Timer("Time: ");
 
-    // vector<double> alphas = {0.15, 0.30, 0.50};
-    vector<double> alphas = {0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1};
+    vector<double> alphas = {0.15, 0.30, 0.50};
 
     vector<double> probabilities;
     vector<double> averages;
@@ -436,26 +441,30 @@ void Graph::reactiveGreedy(int iterations, int block) {
     cout << "Cost: " << bestCost << endl;
 
     delete timer;
+
+    return bestGraph;
 }
 
-void Graph::print() {
+string Graph::stringify(bool allowDisplay) {
     Node *node = this->firstNode;
 
+    std::ostringstream oss;
+
     while (node) {
-        cout << "\nNode" << endl;
-        cout << " ID: " << node->getId() << endl;
-        cout << " WEIGHT: " << node->getWeight() << endl;
-        cout << " DEGREE: " << node->getDegree() << endl;
-        cout << " HEURISTIC: " << node->getHeuristicValue() << endl;
+        oss << "\nNode" << endl;
+        oss << " ID: " << node->getId() << endl;
+        oss << " WEIGHT: " << node->getWeight() << endl;
+        oss << " DEGREE: " << node->getDegree() << endl;
+        oss << " HEURISTIC: " << node->getHeuristicValue() << endl;
 
         Edge *edge = node->getFirstEdge();
 
-        cout << "\n Edges" << endl;
+        oss << "\n Edges" << endl;
 
         while (edge) {
-            cout << "\n   ID: " << edge->getId() << endl;
-            cout << "   HEAD ID: " << edge->getHead()->getId() << endl;
-            cout << "   TARGET ID: " << edge->getTail()->getId() << endl;
+            oss << "\n   ID: " << edge->getId() << endl;
+            oss << "   HEAD ID: " << edge->getHead()->getId() << endl;
+            oss << "   TARGET ID: " << edge->getTail()->getId() << endl;
 
             edge = edge->getNextEdge();
             this->edgesTotal++;
@@ -464,6 +473,12 @@ void Graph::print() {
         node = node->getNextNode();
         this->nodesTotal++;
     }
+
+    if (allowDisplay) {
+        cout << oss.str();
+    }
+
+    return oss.str();
 }
 
 Graph::~Graph() {

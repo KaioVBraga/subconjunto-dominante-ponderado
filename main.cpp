@@ -13,19 +13,19 @@ using std::string;
 #include "./graph/graph.cpp"
 #include "./node/node.cpp"
 
-void processOperationChoice(Graph *graph, int option, int iterations, double alpha, int block) {
+Graph *processOperationChoice(Graph *graph, int option, int iterations, double alpha, int block) {
     switch (option) {
         case 1:
             cout << "Algoritmo Guloso" << endl;
-            graph->greedy();
+            return graph->greedy();
             break;
         case 2:
             cout << "Algoritmo Guloso Randomizado" << endl;
-            graph->randomGreedy(iterations, alpha);
+            return graph->randomGreedy(iterations, alpha);
             break;
         case 3:
             cout << "Algoritmo Guloso Randomizado Reativo" << endl;
-            graph->reactiveGreedy(iterations, block);
+            return graph->reactiveGreedy(iterations, block);
             break;
     }
 }
@@ -150,10 +150,17 @@ void addEdgesFromStringToNodes(Node *head, string connectionMatrixStr) {
     }
 }
 
+void writeStringToFile(const std::string &str, const std::string &fileName) {
+    std::ofstream outFile;
+    outFile.open(fileName);
+    outFile << str;
+    outFile.close();
+}
+
 int main(int argc, char *argv[]) {
-    if (argc != 7) {
+    if (argc != 8) {
         std::cerr
-            << "[ERROR] Incorrect parameters\nExpecting: ./execGrupoX <input_file> <output_file> <option> <iterations> <alpha> <block>\n";
+            << "[ERROR] Incorrect parameters\nExpecting: ./execGrupoX <input_file> <output_file> <option> <iterations> <alpha> <block> <should_write>\n";
         exit(-1);
     }
 
@@ -163,6 +170,7 @@ int main(int argc, char *argv[]) {
     int iterations = stringToInt(static_cast<string>(argv[4]));
     double alpha = stringToDouble(static_cast<string>(argv[5]));
     double block = stringToInt(static_cast<string>(argv[6]));
+    int shouldWrite = stringToInt(static_cast<string>(argv[7]));
 
     string numberOfNodesStr = readFileSection(inputFilePath, "NumberOfNodes:", "Positions");
     int numberOfNodes = stringToInt(numberOfNodesStr);
@@ -175,9 +183,13 @@ int main(int argc, char *argv[]) {
 
     Graph *graph = new Graph(head);
 
-    cout << "Instance: " << inputFilePath << endl;
+    cout << "\nInstance: " << inputFilePath << endl;
 
-    processOperationChoice(graph, option, iterations, alpha, block);
+    Graph *solution = processOperationChoice(graph, option, iterations, alpha, block);
+
+    if (shouldWrite) {
+        writeStringToFile(solution->stringify(false), ouputFilePath);
+    }
 
     return 0;
 }

@@ -1,0 +1,840 @@
+
+Node
+ ID: 19
+ WEIGHT: 42
+ DEGREE: 3
+ HEURISTIC: 5.38095
+
+ Edges
+
+   ID: 104
+   HEAD ID: 19
+   TARGET ID: 2
+
+   ID: 106
+   HEAD ID: 19
+   TARGET ID: 19
+
+   ID: 109
+   HEAD ID: 19
+   TARGET ID: 79
+
+Node
+ ID: 70
+ WEIGHT: 25
+ DEGREE: 3
+ HEURISTIC: 7
+
+ Edges
+
+   ID: 421
+   HEAD ID: 70
+   TARGET ID: 63
+
+   ID: 422
+   HEAD ID: 70
+   TARGET ID: 70
+
+   ID: 425
+   HEAD ID: 70
+   TARGET ID: 92
+
+Node
+ ID: 43
+ WEIGHT: 45
+ DEGREE: 3
+ HEURISTIC: 5.22222
+
+ Edges
+
+   ID: 258
+   HEAD ID: 43
+   TARGET ID: 2
+
+   ID: 259
+   HEAD ID: 43
+   TARGET ID: 38
+
+   ID: 260
+   HEAD ID: 43
+   TARGET ID: 43
+
+Node
+ ID: 69
+ WEIGHT: 30
+ DEGREE: 4
+ HEURISTIC: 7.33333
+
+ Edges
+
+   ID: 416
+   HEAD ID: 69
+   TARGET ID: 46
+
+   ID: 418
+   HEAD ID: 69
+   TARGET ID: 69
+
+   ID: 419
+   HEAD ID: 69
+   TARGET ID: 77
+
+   ID: 420
+   HEAD ID: 69
+   TARGET ID: 84
+
+Node
+ ID: 5
+ WEIGHT: 36
+ DEGREE: 1
+ HEURISTIC: 3.77778
+
+ Edges
+
+   ID: 22
+   HEAD ID: 5
+   TARGET ID: 5
+
+Node
+ ID: 46
+ WEIGHT: 33
+ DEGREE: 4
+ HEURISTIC: 7.0303
+
+ Edges
+
+   ID: 274
+   HEAD ID: 46
+   TARGET ID: 31
+
+   ID: 275
+   HEAD ID: 46
+   TARGET ID: 46
+
+   ID: 276
+   HEAD ID: 46
+   TARGET ID: 58
+
+   ID: 279
+   HEAD ID: 46
+   TARGET ID: 69
+
+Node
+ ID: 45
+ WEIGHT: 34
+ DEGREE: 2
+ HEURISTIC: 4.94118
+
+ Edges
+
+   ID: 272
+   HEAD ID: 45
+   TARGET ID: 45
+
+   ID: 273
+   HEAD ID: 45
+   TARGET ID: 79
+
+Node
+ ID: 38
+ WEIGHT: 32
+ DEGREE: 4
+ HEURISTIC: 7.125
+
+ Edges
+
+   ID: 228
+   HEAD ID: 38
+   TARGET ID: 31
+
+   ID: 229
+   HEAD ID: 38
+   TARGET ID: 38
+
+   ID: 230
+   HEAD ID: 38
+   TARGET ID: 40
+
+   ID: 231
+   HEAD ID: 38
+   TARGET ID: 43
+
+Node
+ ID: 7
+ WEIGHT: 27
+ DEGREE: 2
+ HEURISTIC: 5.7037
+
+ Edges
+
+   ID: 31
+   HEAD ID: 7
+   TARGET ID: 7
+
+   ID: 34
+   HEAD ID: 7
+   TARGET ID: 29
+
+Node
+ ID: 81
+ WEIGHT: 22
+ DEGREE: 1
+ HEURISTIC: 5.54545
+
+ Edges
+
+   ID: 484
+   HEAD ID: 81
+   TARGET ID: 81
+
+Node
+ ID: 57
+ WEIGHT: 25
+ DEGREE: 2
+ HEURISTIC: 6
+
+ Edges
+
+   ID: 345
+   HEAD ID: 57
+   TARGET ID: 57
+
+   ID: 346
+   HEAD ID: 57
+   TARGET ID: 85
+
+Node
+ ID: 26
+ WEIGHT: 33
+ DEGREE: 3
+ HEURISTIC: 6.0303
+
+ Edges
+
+   ID: 150
+   HEAD ID: 26
+   TARGET ID: 26
+
+   ID: 152
+   HEAD ID: 26
+   TARGET ID: 29
+
+   ID: 154
+   HEAD ID: 26
+   TARGET ID: 63
+
+Node
+ ID: 72
+ WEIGHT: 40
+ DEGREE: 2
+ HEURISTIC: 4.5
+
+ Edges
+
+   ID: 433
+   HEAD ID: 72
+   TARGET ID: 48
+
+   ID: 434
+   HEAD ID: 72
+   TARGET ID: 72
+
+Node
+ ID: 79
+ WEIGHT: 37
+ DEGREE: 4
+ HEURISTIC: 6.7027
+
+ Edges
+
+   ID: 472
+   HEAD ID: 79
+   TARGET ID: 19
+
+   ID: 473
+   HEAD ID: 79
+   TARGET ID: 30
+
+   ID: 475
+   HEAD ID: 79
+   TARGET ID: 45
+
+   ID: 476
+   HEAD ID: 79
+   TARGET ID: 79
+
+Node
+ ID: 85
+ WEIGHT: 42
+ DEGREE: 4
+ HEURISTIC: 6.38095
+
+ Edges
+
+   ID: 506
+   HEAD ID: 85
+   TARGET ID: 34
+
+   ID: 507
+   HEAD ID: 85
+   TARGET ID: 57
+
+   ID: 508
+   HEAD ID: 85
+   TARGET ID: 85
+
+   ID: 509
+   HEAD ID: 85
+   TARGET ID: 86
+
+Node
+ ID: 97
+ WEIGHT: 49
+ DEGREE: 1
+ HEURISTIC: 3.04082
+
+ Edges
+
+   ID: 584
+   HEAD ID: 97
+   TARGET ID: 97
+
+Node
+ ID: 31
+ WEIGHT: 28
+ DEGREE: 3
+ HEURISTIC: 6.57143
+
+ Edges
+
+   ID: 182
+   HEAD ID: 31
+   TARGET ID: 31
+
+   ID: 183
+   HEAD ID: 31
+   TARGET ID: 38
+
+   ID: 184
+   HEAD ID: 31
+   TARGET ID: 46
+
+Node
+ ID: 15
+ WEIGHT: 22
+ DEGREE: 1
+ HEURISTIC: 5.54545
+
+ Edges
+
+   ID: 84
+   HEAD ID: 15
+   TARGET ID: 15
+
+Node
+ ID: 47
+ WEIGHT: 30
+ DEGREE: 4
+ HEURISTIC: 7.33333
+
+ Edges
+
+   ID: 282
+   HEAD ID: 47
+   TARGET ID: 29
+
+   ID: 283
+   HEAD ID: 47
+   TARGET ID: 40
+
+   ID: 284
+   HEAD ID: 47
+   TARGET ID: 47
+
+   ID: 285
+   HEAD ID: 47
+   TARGET ID: 50
+
+Node
+ ID: 16
+ WEIGHT: 47
+ DEGREE: 1
+ HEURISTIC: 3.12766
+
+ Edges
+
+   ID: 87
+   HEAD ID: 16
+   TARGET ID: 16
+
+Node
+ ID: 77
+ WEIGHT: 42
+ DEGREE: 3
+ HEURISTIC: 5.38095
+
+ Edges
+
+   ID: 462
+   HEAD ID: 77
+   TARGET ID: 51
+
+   ID: 464
+   HEAD ID: 77
+   TARGET ID: 69
+
+   ID: 465
+   HEAD ID: 77
+   TARGET ID: 77
+
+Node
+ ID: 22
+ WEIGHT: 37
+ DEGREE: 2
+ HEURISTIC: 4.7027
+
+ Edges
+
+   ID: 127
+   HEAD ID: 22
+   TARGET ID: 21
+
+   ID: 128
+   HEAD ID: 22
+   TARGET ID: 22
+
+Node
+ ID: 58
+ WEIGHT: 43
+ DEGREE: 4
+ HEURISTIC: 6.32558
+
+ Edges
+
+   ID: 348
+   HEAD ID: 58
+   TARGET ID: 46
+
+   ID: 349
+   HEAD ID: 58
+   TARGET ID: 51
+
+   ID: 351
+   HEAD ID: 58
+   TARGET ID: 58
+
+   ID: 352
+   HEAD ID: 58
+   TARGET ID: 76
+
+Node
+ ID: 100
+ WEIGHT: 26
+ DEGREE: 2
+ HEURISTIC: 5.84615
+
+ Edges
+
+   ID: 599
+   HEAD ID: 100
+   TARGET ID: 86
+
+   ID: 600
+   HEAD ID: 100
+   TARGET ID: 100
+
+Node
+ ID: 39
+ WEIGHT: 45
+ DEGREE: 2
+ HEURISTIC: 4.22222
+
+ Edges
+
+   ID: 232
+   HEAD ID: 39
+   TARGET ID: 2
+
+   ID: 235
+   HEAD ID: 39
+   TARGET ID: 39
+
+Node
+ ID: 76
+ WEIGHT: 39
+ DEGREE: 3
+ HEURISTIC: 5.5641
+
+ Edges
+
+   ID: 455
+   HEAD ID: 76
+   TARGET ID: 3
+
+   ID: 458
+   HEAD ID: 76
+   TARGET ID: 58
+
+   ID: 459
+   HEAD ID: 76
+   TARGET ID: 76
+
+Node
+ ID: 3
+ WEIGHT: 45
+ DEGREE: 3
+ HEURISTIC: 5.22222
+
+ Edges
+
+   ID: 11
+   HEAD ID: 3
+   TARGET ID: 3
+
+   ID: 13
+   HEAD ID: 3
+   TARGET ID: 50
+
+   ID: 14
+   HEAD ID: 3
+   TARGET ID: 76
+
+Node
+ ID: 25
+ WEIGHT: 49
+ DEGREE: 4
+ HEURISTIC: 6.04082
+
+ Edges
+
+   ID: 144
+   HEAD ID: 25
+   TARGET ID: 25
+
+   ID: 145
+   HEAD ID: 25
+   TARGET ID: 30
+
+   ID: 147
+   HEAD ID: 25
+   TARGET ID: 48
+
+   ID: 148
+   HEAD ID: 25
+   TARGET ID: 63
+
+Node
+ ID: 41
+ WEIGHT: 44
+ DEGREE: 2
+ HEURISTIC: 4.27273
+
+ Edges
+
+   ID: 244
+   HEAD ID: 41
+   TARGET ID: 41
+
+   ID: 245
+   HEAD ID: 41
+   TARGET ID: 48
+
+Node
+ ID: 40
+ WEIGHT: 39
+ DEGREE: 4
+ HEURISTIC: 6.5641
+
+ Edges
+
+   ID: 239
+   HEAD ID: 40
+   TARGET ID: 38
+
+   ID: 240
+   HEAD ID: 40
+   TARGET ID: 40
+
+   ID: 241
+   HEAD ID: 40
+   TARGET ID: 47
+
+   ID: 242
+   HEAD ID: 40
+   TARGET ID: 56
+
+Node
+ ID: 63
+ WEIGHT: 37
+ DEGREE: 4
+ HEURISTIC: 6.7027
+
+ Edges
+
+   ID: 376
+   HEAD ID: 63
+   TARGET ID: 25
+
+   ID: 377
+   HEAD ID: 63
+   TARGET ID: 26
+
+   ID: 378
+   HEAD ID: 63
+   TARGET ID: 63
+
+   ID: 379
+   HEAD ID: 63
+   TARGET ID: 70
+
+Node
+ ID: 30
+ WEIGHT: 34
+ DEGREE: 3
+ HEURISTIC: 5.94118
+
+ Edges
+
+   ID: 175
+   HEAD ID: 30
+   TARGET ID: 25
+
+   ID: 176
+   HEAD ID: 30
+   TARGET ID: 30
+
+   ID: 178
+   HEAD ID: 30
+   TARGET ID: 79
+
+Node
+ ID: 92
+ WEIGHT: 41
+ DEGREE: 2
+ HEURISTIC: 4.43902
+
+ Edges
+
+   ID: 551
+   HEAD ID: 92
+   TARGET ID: 70
+
+   ID: 553
+   HEAD ID: 92
+   TARGET ID: 92
+
+Node
+ ID: 44
+ WEIGHT: 38
+ DEGREE: 2
+ HEURISTIC: 4.63158
+
+ Edges
+
+   ID: 265
+   HEAD ID: 44
+   TARGET ID: 29
+
+   ID: 266
+   HEAD ID: 44
+   TARGET ID: 44
+
+Node
+ ID: 48
+ WEIGHT: 35
+ DEGREE: 4
+ HEURISTIC: 6.85714
+
+ Edges
+
+   ID: 287
+   HEAD ID: 48
+   TARGET ID: 25
+
+   ID: 289
+   HEAD ID: 48
+   TARGET ID: 41
+
+   ID: 290
+   HEAD ID: 48
+   TARGET ID: 48
+
+   ID: 291
+   HEAD ID: 48
+   TARGET ID: 72
+
+Node
+ ID: 29
+ WEIGHT: 31
+ DEGREE: 5
+ HEURISTIC: 8.22581
+
+ Edges
+
+   ID: 168
+   HEAD ID: 29
+   TARGET ID: 7
+
+   ID: 169
+   HEAD ID: 29
+   TARGET ID: 26
+
+   ID: 170
+   HEAD ID: 29
+   TARGET ID: 29
+
+   ID: 172
+   HEAD ID: 29
+   TARGET ID: 44
+
+   ID: 173
+   HEAD ID: 29
+   TARGET ID: 47
+
+Node
+ ID: 21
+ WEIGHT: 26
+ DEGREE: 2
+ HEURISTIC: 5.84615
+
+ Edges
+
+   ID: 122
+   HEAD ID: 21
+   TARGET ID: 21
+
+   ID: 123
+   HEAD ID: 21
+   TARGET ID: 22
+
+Node
+ ID: 56
+ WEIGHT: 41
+ DEGREE: 2
+ HEURISTIC: 4.43902
+
+ Edges
+
+   ID: 339
+   HEAD ID: 56
+   TARGET ID: 40
+
+   ID: 342
+   HEAD ID: 56
+   TARGET ID: 56
+
+Node
+ ID: 50
+ WEIGHT: 38
+ DEGREE: 3
+ HEURISTIC: 5.63158
+
+ Edges
+
+   ID: 297
+   HEAD ID: 50
+   TARGET ID: 3
+
+   ID: 298
+   HEAD ID: 50
+   TARGET ID: 47
+
+   ID: 299
+   HEAD ID: 50
+   TARGET ID: 50
+
+Node
+ ID: 34
+ WEIGHT: 21
+ DEGREE: 2
+ HEURISTIC: 6.7619
+
+ Edges
+
+   ID: 200
+   HEAD ID: 34
+   TARGET ID: 34
+
+   ID: 202
+   HEAD ID: 34
+   TARGET ID: 85
+
+Node
+ ID: 84
+ WEIGHT: 42
+ DEGREE: 2
+ HEURISTIC: 4.38095
+
+ Edges
+
+   ID: 501
+   HEAD ID: 84
+   TARGET ID: 69
+
+   ID: 502
+   HEAD ID: 84
+   TARGET ID: 84
+
+Node
+ ID: 86
+ WEIGHT: 26
+ DEGREE: 3
+ HEURISTIC: 6.84615
+
+ Edges
+
+   ID: 512
+   HEAD ID: 86
+   TARGET ID: 85
+
+   ID: 513
+   HEAD ID: 86
+   TARGET ID: 86
+
+   ID: 514
+   HEAD ID: 86
+   TARGET ID: 100
+
+Node
+ ID: 2
+ WEIGHT: 40
+ DEGREE: 4
+ HEURISTIC: 6.5
+
+ Edges
+
+   ID: 6
+   HEAD ID: 2
+   TARGET ID: 2
+
+   ID: 7
+   HEAD ID: 2
+   TARGET ID: 19
+
+   ID: 8
+   HEAD ID: 2
+   TARGET ID: 39
+
+   ID: 9
+   HEAD ID: 2
+   TARGET ID: 43
+
+Node
+ ID: 51
+ WEIGHT: 42
+ DEGREE: 3
+ HEURISTIC: 5.38095
+
+ Edges
+
+   ID: 305
+   HEAD ID: 51
+   TARGET ID: 51
+
+   ID: 307
+   HEAD ID: 51
+   TARGET ID: 58
+
+   ID: 310
+   HEAD ID: 51
+   TARGET ID: 77
