@@ -1,16 +1,5 @@
 GULOSO
 
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso
-Cost: 2198
-Time: : 0.0112697s
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso
-Cost: 2198
-Time: : 0.0110506s
-
 Instance: entries/Problem.dat_50_50_3
 Algoritmo Guloso
 Cost: 1318
@@ -65,17 +54,6 @@ Time: : 1.42826s
 GULOSO RANDOMIZADO
 alpha = 0.15
 
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso Randomizado
-Cost: 1954
-Time: : 4.31545s
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso Randomizado
-Cost: 1939
-Time: : 4.46916s
-
 Instance: entries/Problem.dat_50_50_3
 Algoritmo Guloso Randomizado
 Cost: 1241
@@ -127,17 +105,6 @@ Cost: 15164
 Time: : 743.388s
 
 alpha = 0.30
-
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso Randomizado
-Cost: 1745
-Time: : 5.6642s
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso Randomizado
-Cost: 1649
-Time: : 4.97471s
 
 Instance: entries/Problem.dat_50_50_3
 Algoritmo Guloso Randomizado
@@ -191,17 +158,6 @@ Time: : 644.352s
 
 alpha = 0.50
 
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso Randomizado
-Cost: 1562
-Time: : 4.95248s
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso Randomizado
-Cost: 1560
-Time: : 5.0712s
-
 Instance: entries/Problem.dat_50_50_3
 Algoritmo Guloso Randomizado
 Cost: 988
@@ -254,17 +210,6 @@ Time: : 546.714s
 
 ----------------------------------------------------------------
 GULOSO REATIVO
-
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso Randomizado Reativo
-Cost: 1639
-Time: : 5.69935s
-
-Instance: entries/Problem.dat_100_250_3
-Algoritmo Guloso Randomizado Reativo
-Cost: 1625
-Time: : 5.30506s
 
 Instance: entries/Problem.dat_50_50_3
 Algoritmo Guloso Randomizado Reativo
