@@ -1,0 +1,379 @@
+Instance: Problem.dat_50_50_3
+Type: Algoritmo Guloso
+Cost: 1318
+Time: 0.0023834s
+Best Cost: 552
+Comparison Rate: 1.39
+
+Instance: Problem.dat_50_250_3
+Type: Algoritmo Guloso
+Cost: 772
+Time: 0.00108576s
+Best Cost: 192
+Comparison Rate: 3.02
+
+Instance: Problem.dat_100_250_3
+Type: Algoritmo Guloso
+Cost: 2198
+Time: 0.00950495s
+Best Cost: 672
+Comparison Rate: 2.27
+
+Instance: Problem.dat_100_500_3
+Type: Algoritmo Guloso
+Cost: 1554
+Time: 0.00685192s
+Best Cost: 432
+Comparison Rate: 2.60
+
+Instance: Problem.dat_150_150_3
+Type: Algoritmo Guloso
+Cost: 4531
+Time: 0.0427468s
+Best Cost: 1608
+Comparison Rate: 1.82
+
+Instance: Problem.dat_250_750_3
+Type: Algoritmo Guloso
+Cost: 6150
+Time: 0.158069s
+Best Cost: 1640
+Comparison Rate: 2.75
+
+Instance: Problem.dat_300_500_3
+Type: Algoritmo Guloso
+Cost: 8832
+Time: 0.316461s
+Best Cost: 2723
+Comparison Rate: 2.24
+
+Instance: Problem.dat_300_2000_3
+Type: Algoritmo Guloso
+Cost: 4613
+Time: 0.110671s
+Best Cost: 1533
+Comparison Rate: 2.01
+
+Instance: Problem.dat_500_500_0
+Type: Algoritmo Guloso
+Cost: 16099
+Time: 1.49902s
+Best Cost: 1825
+Comparison Rate: 7.82
+
+Instance: Problem.dat_500_500_3
+Type: Algoritmo Guloso
+Cost: 15502
+Time: 1.42826s
+Best Cost: 1824
+Comparison Rate: 7.50
+
+Instance: Problem.dat_50_50_3
+Type: Algoritmo Guloso Randomizado
+Cost: 1241
+Time: 1.11651s
+Alpha: 0.15
+Best Cost: 552
+Comparison Rate: 1.25
+
+Instance: Problem.dat_50_250_3
+Type: Algoritmo Guloso Randomizado
+Cost: 600
+Time: 0.601346s
+Alpha: 0.15
+Best Cost: 192
+Comparison Rate: 2.13
+
+Instance: Problem.dat_100_250_3
+Type: Algoritmo Guloso Randomizado
+Cost: 1947
+Time: 4.42924s
+Alpha: 0.15
+Best Cost: 672
+Comparison Rate: 1.90
+
+Instance: Problem.dat_100_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 1148
+Time: 2.48772s
+Alpha: 0.15
+Best Cost: 432
+Comparison Rate: 1.66
+
+Instance: Problem.dat_150_150_3
+Type: Algoritmo Guloso Randomizado
+Cost: 4397
+Time: 18.2076s
+Alpha: 0.15
+Best Cost: 1608
+Comparison Rate: 1.73
+
+Instance: Problem.dat_250_750_3
+Type: Algoritmo Guloso Randomizado
+Cost: 5646
+Time: 56.8782s
+Alpha: 0.15
+Best Cost: 1640
+Comparison Rate: 2.44
+
+Instance: Problem.dat_300_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 8505
+Time: 158.956s
+Alpha: 0.15
+Best Cost: 2723
+Comparison Rate: 2.12
+
+Instance: Problem.dat_300_2000_3
+Type: Algoritmo Guloso Randomizado
+Cost: 3465
+Time: 46.412s
+Alpha: 0.15
+Best Cost: 1533
+Comparison Rate: 1.26
+
+Instance: Problem.dat_500_500_0
+Type: Algoritmo Guloso Randomizado
+Cost: 15825
+Time: 737.496s
+Alpha: 0.15
+Best Cost: 1825
+Comparison Rate: 7.67
+
+Instance: Problem.dat_500_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 15164
+Time: 743.388s
+Alpha: 0.15
+Best Cost: 1824
+Comparison Rate: 7.31
+
+Instance: Problem.dat_50_50_3
+Type: Algoritmo Guloso Randomizado
+Cost: 1090
+Time: 1.46144s
+Alpha: 0.30
+Best Cost: 552
+Comparison Rate: 0.97
+
+Instance: Problem.dat_50_250_3
+Type: Algoritmo Guloso Randomizado
+Cost: 425
+Time: 0.682628s
+Alpha: 0.30
+Best Cost: 192
+Comparison Rate: 1.21
+
+Instance: Problem.dat_100_250_3
+Type: Algoritmo Guloso Randomizado
+Cost: 1768
+Time: 5.57413s
+Alpha: 0.30
+Best Cost: 672
+Comparison Rate: 1.63
+
+Instance: Problem.dat_100_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 1043
+Time: 2.96191s
+Alpha: 0.30
+Best Cost: 432
+Comparison Rate: 1.41
+
+Instance: Problem.dat_150_150_3
+Type: Algoritmo Guloso Randomizado
+Cost: 4214
+Time: 22.6021s
+Alpha: 0.30
+Best Cost: 1608
+Comparison Rate: 1.62
+
+Instance: Problem.dat_250_750_3
+Type: Algoritmo Guloso Randomizado
+Cost: 4922
+Time: 54.7978s
+Alpha: 0.30
+Best Cost: 1640
+Comparison Rate: 2.00
+
+Instance: Problem.dat_300_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 8036
+Time: 134.283s
+Alpha: 0.30
+Best Cost: 2723
+Comparison Rate: 1.95
+
+Instance: Problem.dat_300_2000_3
+Type: Algoritmo Guloso Randomizado
+Cost: 3301
+Time: 49.9002s
+Alpha: 0.30
+Best Cost: 1533
+Comparison Rate: 1.15
+
+Instance: Problem.dat_500_500_0
+Type: Algoritmo Guloso Randomizado
+Cost: 15370
+Time: 626.854s
+Alpha: 0.30
+Best Cost: 1825
+Comparison Rate: 7.42
+
+Instance: Problem.dat_500_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 14763
+Time: 644.352s
+Alpha: 0.30
+Best Cost: 1824
+Comparison Rate: 7.09
+
+Instance: Problem.dat_50_50_3
+Type: Algoritmo Guloso Randomizado
+Cost: 988
+Time: 1.32478s
+Alpha: 0.50
+Best Cost: 552
+Comparison Rate: 0.79
+
+Instance: Problem.dat_50_250_3
+Type: Algoritmo Guloso Randomizado
+Cost: 402
+Time: 0.813318s
+Alpha: 0.50
+Best Cost: 192
+Comparison Rate: 1.09
+
+Instance: Problem.dat_100_250_3
+Type: Algoritmo Guloso Randomizado
+Cost: 1471
+Time: 4.66284s
+Alpha: 0.50
+Best Cost: 672
+Comparison Rate: 1.19
+
+Instance: Problem.dat_100_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 889
+Time: 3.12417s
+Alpha: 0.50
+Best Cost: 432
+Comparison Rate: 1.06
+
+Instance: Problem.dat_150_150_3
+Type: Algoritmo Guloso Randomizado
+Cost: 3972
+Time: 19.4441s
+Alpha: 0.50
+Best Cost: 1608
+Comparison Rate: 1.47
+
+Instance: Problem.dat_250_750_3
+Type: Algoritmo Guloso Randomizado
+Cost: 4354
+Time: 45.4291s
+Alpha: 0.50
+Best Cost: 1640
+Comparison Rate: 1.65
+
+Instance: Problem.dat_300_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 7008
+Time: 106.475s
+Alpha: 0.50
+Best Cost: 2723
+Comparison Rate: 1.57
+
+Instance: Problem.dat_300_2000_3
+Type: Algoritmo Guloso Randomizado
+Cost: 3209
+Time: 51.4334s
+Alpha: 0.50
+Best Cost: 1533
+Comparison Rate: 1.09
+
+Instance: Problem.dat_500_500_0
+Type: Algoritmo Guloso Randomizado
+Cost: 14548
+Time: 531.113s
+Alpha: 0.50
+Best Cost: 1825
+Comparison Rate: 6.97
+
+Instance: Problem.dat_500_500_3
+Type: Algoritmo Guloso Randomizado
+Cost: 13696
+Time: 546.714s
+Alpha: 0.50
+Best Cost: 1824
+Comparison Rate: 6.51
+
+Instance: Problem.dat_50_50_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 1083
+Time: 1.49959s
+Best Cost: 552
+Comparison Rate: 0.96
+
+Instance: Problem.dat_50_250_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 457
+Time: 0.762394s
+Best Cost: 192
+Comparison Rate: 1.38
+
+Instance: Problem.dat_100_250_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 1427
+Time: 5.61792s
+Best Cost: 672
+Comparison Rate: 1.12
+
+Instance: Problem.dat_100_500_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 1040
+Time: 3.28504s
+Best Cost: 432
+Comparison Rate: 1.41
+
+Instance: Problem.dat_150_150_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 4034
+Time: 24.5296s
+Best Cost: 1608
+Comparison Rate: 1.51
+
+Instance: Problem.dat_250_750_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 4292
+Time: 62.312s
+Best Cost: 1640
+Comparison Rate: 1.62
+
+Instance: Problem.dat_300_500_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 7328
+Time: 136.004s
+Best Cost: 2723
+Comparison Rate: 1.69
+
+Instance: Problem.dat_300_2000_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 3144
+Time: 48.1868s
+Best Cost: 1533
+Comparison Rate: 1.05
+
+Instance: Problem.dat_500_500_0
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 15006
+Time: 572.173s
+Best Cost: 1825
+Comparison Rate: 7.22
+
+Instance: Problem.dat_500_500_3
+Type: Algoritmo Guloso Randomizado Reativo
+Cost: 13928
+Time: 580.811s
+Best Cost: 1824
+Comparison Rate: 6.64

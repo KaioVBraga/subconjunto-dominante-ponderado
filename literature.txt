@@ -1,0 +1,29 @@
+Instance: Problem.dat_50_50_3   
+Cost: 552
+
+Instance: Problem.dat_50_250_3  
+Cost: 192
+
+Instance: Problem.dat_100_250_3 
+Cost: 672
+
+Instance: Problem.dat_100_500_3 
+Cost: 432
+
+Instance: Problem.dat_150_150_3 
+Cost: 1608
+
+Instance: Problem.dat_250_750_3 
+Cost: 1640
+
+Instance: Problem.dat_300_500_3 
+Cost: 2723
+
+Instance: Problem.dat_300_2000_3 
+Cost: 1533
+
+Instance: Problem.dat_500_500_0 
+Cost: 1825
+
+Instance: Problem.dat_500_500_3 
+Cost: 1824
