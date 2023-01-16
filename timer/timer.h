@@ -1,13 +1,11 @@
-//
-// Created by Daniel on 23/07/2022.
-//
+
 
 #ifndef DEV_TIMER_H
 #define DEV_TIMER_H
 
-#include <string>
 #include <chrono>
 #include <iostream>
+#include <string>
 #include <utility>
 
 using namespace std::chrono;
@@ -18,38 +16,32 @@ using namespace std::chrono;
  * Sua destruicao ira imprimir o tempo de execucao do escopo.
  *
  * */
-class Timer
-{
-private:
+class Timer {
+   private:
     std::string legenda;
     time_point<std::chrono::system_clock> start;
     time_point<std::chrono::system_clock> end;
     duration<double> elapsedSeconds{};
 
-    void startTimer()
-    {
+    void startTimer() {
         start = std::chrono::system_clock::now();
     }
 
-    void stopTimer()
-    {
+    void stopTimer() {
         end = std::chrono::system_clock::now();
         elapsedSeconds = end - start;
     }
 
-public:
-    explicit Timer(std::string legenda)
-    {
+   public:
+    explicit Timer(std::string legenda) {
         this->legenda = std::move(legenda);
         startTimer();
     }
 
-    ~Timer()
-    {
+    ~Timer() {
         stopTimer();
         std::cout << legenda << ": " << elapsedSeconds.count() << "s\n";
     }
 };
 
-
-#endif //DEV_TIMER_H
+#endif  // DEV_TIMER_H
