@@ -42,24 +42,26 @@ const main = async () => {
     }, {})
   );
 
-  const formatedTestsDataObj = testsDataObj.map((data) => {
-    console.log("INSTANCE -> ", data["Instance"]);
+  const formatedTestsDataObj = testsDataObj
+    .map((data) => {
+      console.log("INSTANCE -> ", data["Instance"]);
 
-    const cost = data["Cost"];
+      const cost = data["Cost"];
 
-    const bestCost = literatureDataObj.find(
-      (d) => d["Instance"] === data["Instance"]
-    )?.Cost;
+      const bestCost = literatureDataObj.find(
+        (d) => d["Instance"] === data["Instance"]
+      )?.Cost;
 
-    return {
-      ...data,
-      ["Best Cost"]: bestCost,
-      ["Comparison Rate"]: (
-        (Number(cost) - Number(bestCost)) /
-        Number(bestCost)
-      ).toFixed(2),
-    };
-  });
+      return {
+        ...data,
+        ["Best Cost"]: bestCost,
+        ["Comparison Rate"]: (
+          (Number(cost) - Number(bestCost)) /
+          Number(bestCost)
+        ).toFixed(2),
+      };
+    })
+    .sort((a, b) => a["Instance"].localeCompare(b["Instance"]));
 
   const formatedTestsData = formatedTestsDataObj
     .map((v) =>

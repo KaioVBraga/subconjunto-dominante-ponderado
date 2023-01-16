@@ -48,8 +48,6 @@ Type: Algoritmo Guloso
 Cost: 15502
 Time: 1.42826s
 
-
-
 Instance: Problem.dat_50_50_3
 Type: Algoritmo Guloso Randomizado
 Cost: 1241
