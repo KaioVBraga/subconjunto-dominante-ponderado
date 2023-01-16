@@ -1,8 +1,6 @@
 echo "GULOSO" >> tests_data.txt;
 echo "" >> tests_data.txt;
 
-./main entries/Problem.dat_100_250_3 output.txt 1 0 0 0 0 >> tests_data.txt
-./main entries/Problem.dat_100_250_3 output.txt 1 0 0 0 0 >> tests_data.txt
 ./main entries/Problem.dat_50_50_3 output.txt 1 0 0 0 0 >> tests_data.txt
 ./main entries/Problem.dat_50_250_3 output.txt 1 0 0 0 0 >> tests_data.txt
 ./main entries/Problem.dat_100_250_3   output.txt 1 0 0 0 0 >> tests_data.txt

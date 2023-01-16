@@ -1,0 +1,70 @@
+GULOSO
+
+
+Instance: entries/Problem.dat_50_50_3
+Algoritmo Guloso
+Cost: 1318
+Time: : 0.00158279s
+
+Instance: entries/Problem.dat_50_250_3
+Algoritmo Guloso
+Cost: 794
+Time: : 0.00144137s
+
+Instance: entries/Problem.dat_100_250_3
+Algoritmo Guloso
+Cost: 2298
+Time: : 0.0128235s
+
+Instance: entries/Problem.dat_100_500_3
+Algoritmo Guloso
+Cost: 1420
+Time: : 0.0057943s
+
+Instance: entries/Problem.dat_150_150_3
+Algoritmo Guloso
+Cost: 4490
+Time: : 0.0481877s
+
+Instance: entries/Problem.dat_250_750_3
+Algoritmo Guloso
+Cost: 5412
+Time: : 0.111318s
+
+Instance: entries/Problem.dat_300_500_3
+Algoritmo Guloso
+Cost: 8706
+Time: : 0.337795s
+
+Instance: entries/Problem.dat_300_2000_3
+Algoritmo Guloso
+Cost: 4065
+Time: : 0.0875885s
+
+Instance: entries/Problem.dat_500_500_0
+Algoritmo Guloso
+Cost: 16015
+Time: : 1.49042s
+
+Instance: entries/Problem.dat_500_500_3
+Algoritmo Guloso
+Cost: 15595
+Time: : 1.48943s
+
+----------------------------------------------------------------
+GULOSO RANDOMIZADO
+alpha = 0.15
+
+
+Instance: entries/Problem.dat_50_50_3
+Algoritmo Guloso Randomizado
+Cost: 1248
+Time: : 1.14757s
+
+Instance: entries/Problem.dat_50_250_3
+Algoritmo Guloso Randomizado
+Cost: 609
+Time: : 0.710592s
+
+Instance: entries/Problem.dat_100_250_3
+Algoritmo Guloso Randomizado

@@ -43,7 +43,7 @@ int Node::getWeight() {
 }
 
 double Node::getHeuristicValue() {
-    return this->getDegree() / ((double)this->getWeight());
+    return this->getDegree() + (10 / (double)this->getWeight());
 }
 
 Node *Node::clone() {
